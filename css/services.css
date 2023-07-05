@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+.container{
+    display: grid;
+    grid-template-rows: 5vh 90vh 5vh ;
+}
+
+
+header{
+    background: rgb(4, 102, 158);
+    
+}
+
+
+nav ul{
+    display: flex;
+    height: 5vh;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    list-style: none;
+}
+
+nav ul a{
+    color: white;
+}
+
+
+.container img{
+    width: 10rem;
+}
+
+.services-logo{
+    background-size: cover;
+
+    
+}
+
+
+
+h2{
+    text-align: center;
+}
+
+.conteudo{
+    display: flex;
+    height: 90vh;
+    justify-content: center;
+    gap: 10rem;
+    align-items: center;
+
+    
+}
+
+.caixa{
+    display: grid;
+    grid-template-rows: auto auto 1fr;
+    justify-content: center;
+    align-items: space-around;
+    gap: 20px;
+    border: solid 1px rgb(217, 219, 221);
+    border-radius: 5px;
+    height: 20rem;
+    width: 20rem;
+    background-color: rgb(231, 235, 238);
+    
+
+}
+
+.caixa button{
+    padding: 15px 25px;
+    margin-top: 20px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    background: rgb(4, 102, 158);
+    color: white;
+    justify-self: center;
+}
+
+.caixa button:hover{
+    background: rgb(84, 161, 206);
+    transition: 0.3s;
+}
+
+.caixa button:active{
+    background: rgb(85, 138, 168);
+    transition: 0.1s;
+}
+
+.linha{
+    width: 19rem;
+    border: 1px solid rgb(159, 162, 165);
+    border-radius: 4px;
+    justify-self: center;
+    
+}
+
+.descricao p{
+    padding: 10px;
+}
+
+footer{
+    display: flex;
+    background: rgb(4, 102, 158);
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+
